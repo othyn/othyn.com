@@ -3,7 +3,9 @@ export default {
   head: {
     title: 'othyn.',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'en',
+      id: 'top',
+      class: 'w-100 h-100'
     },
     meta: [
       { charset: 'utf-8' },
@@ -18,7 +20,10 @@ export default {
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
       { rel: 'manifest', href: '/site.webmanifest' }
-    ]
+    ],
+    bodyAttrs: {
+      class: 'terminal w-100 h-100'
+    }
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -31,7 +36,11 @@ export default {
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  components: true,
+  components: [
+    '~/components',
+    { path: '~/components/global/', prefix: 'global' }
+    // Seems to be the only way to get the Nav to load in the layouts
+  ],
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
