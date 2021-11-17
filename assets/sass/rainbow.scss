@@ -1,0 +1,40 @@
+// Handles the rainbow effect, woah
+
+.rainbow {
+    background: linear-gradient(135deg,
+        material-color('red', '400'),
+        material-color('pink', '400'),
+        material-color('purple', '400'),
+        material-color('deep-purple', '400'),
+        material-color('indigo', '400'),
+        material-color('blue', '400'),
+        material-color('light-blue', '400'),
+        material-color('cyan', '400'),
+        material-color('teal', '400'),
+        material-color('green', '400'),
+        material-color('light-green', '400'),
+        material-color('lime', '400'),
+        material-color('yellow', '400'),
+        material-color('amber', '400'),
+        material-color('orange', '400'),
+        material-color('deep-orange', '400'));
+    background-size: 1000% 1000%;
+    animation: rainbow 30s ease infinite;
+
+    &-text {
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 0%
+    }
+    50% {
+        background-position: 100% 100%
+    }
+    100% {
+        background-position: 0% 0%
+    }
+}
