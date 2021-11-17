@@ -2,6 +2,10 @@
   "name": "othyn.com",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "yarn": ">=1.22.0",
+    "node": ">=16.13.0"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -12,7 +16,8 @@
   },
   "dependencies": {
     "core-js": "^3.15.1",
-    "nuxt": "^2.15.7"
+    "nuxt": "^2.15.7",
+    "terminal.css": "^0.7.2"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
@@ -20,12 +25,14 @@
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/eslint-config-typescript": "^6.0.1",
     "@nuxtjs/eslint-module": "^3.0.2",
+    "dom-confetti": "^0.2.2",
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-vue": "^7.12.1",
     "prettier": "^2.3.2",
     "sass": "^1.43.4",
-    "sass-loader": "10"
+    "sass-loader": "10",
+    "sass-material-colors": "^0.0.5"
   }
 }
