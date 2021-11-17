@@ -9,10 +9,12 @@ services:
     container_name: com.othyn.app
     build:
         context: .
-        dockerfile: docker/dockerfile
+        dockerfile: dockerfile
     ports:
       - 3000:3000
     volumes:
       - .:/var/www
+      - /var/www/node_modules
+      # anonymous persistent volume to stop node_modules within the container being overriden by local
     networks:
       - com.othyn.network

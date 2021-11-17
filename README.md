@@ -4,8 +4,9 @@ Modernised codebase for my website, replacing the old Laravel app. As my design 
 
 ## Creating the repo
 
-```sh
-yarn create nuxt-app othyn.com
+```bash
+$ yarn create nuxt-app othyn.com
+...
 create-nuxt-app v3.7.1
 ✨  Generating Nuxt.js project in othyn.com
 ? Project name: othyn.com
@@ -21,53 +22,41 @@ create-nuxt-app v3.7.1
 ? Continuous integration: GitHub Actions (GitHub only)
 ? What is your GitHub username? othyn
 ? Version control system: Git
+...
 ```
 
-## Building the app container
-
-```sh
-# Production container build
-docker-compose build --no-cache
-
-# ...or if you're having problems...
-# docker-compose build --no-cache
-```
-
-# Running the app containerised
-
-```sh
-# Build the app, so when docker compose mounts the volume it has
-# a built version of the app to serve
-yarn build
-
-# Up the app container, detatched
-docker-compose up -d
-```
-
----
-
-# NuxtJS Default Installation Docs
-
-Thought its worthwhile leaving these in here for future reference 🤷
-
-## Build Setup
+## Building and running the app locally
 
 ```bash
-# install dependencies
+# Install dependencies
 $ yarn install
 
-# serve with hot reload at localhost:3000
+# Serve with hot reload at localhost:3000
 $ yarn dev
 
-# build for production and launch server
+# Build for production and launch server
 $ yarn build
 $ yarn start
 
-# generate static project
+# Generate static project
 $ yarn generate
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+
+## Building the app container
+
+```bash
+# Production container build
+$ docker-compose build
+
+# ...or if you're having problems...
+$ docker-compose build --no-cache
+```
+
+### Developing from the app container
+
+I've tried to work it that you can work out of the container, but the more I push it, the more it feels wrong. I would just use Yarn locally, unless you really have to work out of the container, e.g. not wanting a local Yarn install. The `node_modules` directory is ommitted from the volume mount, so you _can_ go ahead and use `docker-compose up -d -V` to work out of the container just fine (`-V` refreshing the anonymous persistent volume so it always uses the latest in the container). **You just won't get any hot reloading for easy development.**
 
 ## Special Directories
 
