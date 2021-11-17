@@ -1,0 +1,18 @@
+version: '3.7'
+
+networks:
+  com.othyn.network:
+    name: com.othyn.network
+
+services:
+  com.othyn.app:
+    container_name: com.othyn.app
+    build:
+        context: .
+        dockerfile: docker/dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/var/www
+    networks:
+      - com.othyn.network

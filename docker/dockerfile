@@ -1,0 +1,25 @@
+# Latest LTS release at the time of writing
+FROM node:16.13.0-alpine3.14
+
+# Create app directory
+RUN mkdir -p /var/www
+WORKDIR /var/www
+
+# Copy the app into the container
+# Note usage of ./../.dockerignore
+COPY . /var/www/
+
+# Install project dependencies
+RUN npm install
+RUN npm run build
+
+# Expose the app port
+EXPOSE 3000
+
+# Set NUXT app env
+ENV NUXT_HOST=0.0.0.0
+ENV NUXT_PORT=3000
+ENV NODE_ENV=production
+
+# Let's goooooooo!
+CMD ["npm", "start"]

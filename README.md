@@ -1,8 +1,8 @@
 # othyn.com
 
-codebase for my website
+Modernised codebase for my website, replacing the old Laravel app. As my design methodology has changed towards containerised microservices living within K8's, the original Laravel repo was monolithic, hard to containerise and maintain. Thus, the extraction of the original semi-static web content with mild VueJS elements that lead itself perfectly to a small NuxtJS site bundled into an equally small container.
 
-microservices, original repo was monolithic and hard to containerise and maintain
+## Creating the repo
 
 ```sh
 yarn create nuxt-app othyn.com
@@ -22,6 +22,33 @@ create-nuxt-app v3.7.1
 ? What is your GitHub username? othyn
 ? Version control system: Git
 ```
+
+## Building the app container
+
+```sh
+# Production container build
+docker-compose build --no-cache
+
+# ...or if you're having problems...
+# docker-compose build --no-cache
+```
+
+# Running the app containerised
+
+```sh
+# Build the app, so when docker compose mounts the volume it has
+# a built version of the app to serve
+yarn build
+
+# Up the app container, detatched
+docker-compose up -d
+```
+
+---
+
+# NuxtJS Default Installation Docs
+
+Thought its worthwhile leaving these in here for future reference 🤷
 
 ## Build Setup
 
