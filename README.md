@@ -26,7 +26,7 @@ For detailed explanation on how things work, check out the [documentation](https
 
 ## Building the production app image
 
-**The CD GitHub Action should auto build and tag an image for you based on when a new tag is created/pushed**, so you shouldn't need to build the image manually or push it. Just create a tag via a new GitHub release or push a local tag, and it should do the rest.
+**The CD GitHub Action should auto build and tag an image for you based on when a new tag is created/pushed**, so you shouldn't need to build the image manually or push it. This will then become [available as part of GitHub's packages feature](https://github.com/othyn/othyn.com/pkgs/container/othyn.com). Just create a tag via a [new GitHub release](https://github.com/othyn/othyn.com/releases) or push a local tag, and it should do the rest.
 
 However, if you do wish to do it, go ahead and run a normal Docker Compose build:
 
