@@ -2,29 +2,6 @@
 
 Modernised codebase for my website, replacing the old Laravel app. As my design methodology has changed towards containerised microservices living within K8's, the original Laravel repo was monolithic, hard to containerise and maintain. Thus, the extraction of the original semi-static web content with mild VueJS elements that lead itself perfectly to a small NuxtJS site bundled into an equally small container.
 
-## Creating the repo
-
-```bash
-$ yarn create nuxt-app othyn.com
-...
-create-nuxt-app v3.7.1
-✨  Generating Nuxt.js project in othyn.com
-? Project name: othyn.com
-? Programming language: TypeScript
-? Package manager: Yarn
-? UI framework: None
-? Nuxt.js modules: (Press <space> to select, <a> to toggle all, <i> to invert selection)
-? Linting tools: ESLint, Prettier
-? Testing framework: None
-? Rendering mode: Universal (SSR / SSG)
-? Deployment target: Server (Node.js hosting)
-? Development tools: (Press <space> to select, <a> to toggle all, <i> to invert selection)
-? Continuous integration: GitHub Actions (GitHub only)
-? What is your GitHub username? othyn
-? Version control system: Git
-...
-```
-
 ## Building and running the app locally
 
 ```bash
