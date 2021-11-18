@@ -10,11 +10,13 @@ services:
     build:
         context: .
         dockerfile: dockerfile
-    ports:
-      - 3000:3000
-    volumes:
-      - .:/var/www
-      - /var/www/node_modules
-      # anonymous persistent volume to stop node_modules within the container being overriden by local
     networks:
       - com.othyn.network
+    ports:
+      - 3000:3000
+    # volumes:
+      # - .:/var/www
+      # - /var/www/node_modules
+      # anonymous persistent volume to stop node_modules within the container being overriden by local
+      # - ./logs:/root/.npm/_logs
+      # for debugging container issues
