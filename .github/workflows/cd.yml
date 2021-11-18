@@ -4,7 +4,7 @@
 # documentation.
 # See: https://docs.github.com/en/actions/publishing-packages/publishing-docker-images#publishing-images-to-github-packages
 
-name: Create and publish a Docker image
+name: Continuous Deployment
 
 on:
   push:
