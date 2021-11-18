@@ -1,5 +1,10 @@
 # othyn.com
 
+[![Continuous Integration](https://github.com/othyn/othyn.com/actions/workflows/ci.yml/badge.svg)](https://github.com/othyn/othyn.com/actions/workflows/ci.yml)
+[![Continuous Deployment](https://github.com/othyn/othyn.com/actions/workflows/cd.yml/badge.svg)](https://github.com/othyn/othyn.com/actions/workflows/cd.yml)
+[![GitHub license](https://img.shields.io/github/license/othyn/othyn.com)](https://github.com/othyn/othyn.com/blob/main/LICENSE)
+[![Love](https://img.shields.io/badge/built%20with-love-red)](https://img.shields.io/badge/built%20with-love-red)
+
 Modernised codebase for my website, replacing the old Laravel app. As my design methodology has changed towards containerised microservices living within K8's, the original Laravel repo was monolithic, hard to containerise and maintain. Thus, the extraction of the original semi-static web content with mild VueJS elements that lead itself perfectly to a small NuxtJS site bundled into an equally small container.
 
 ## Building and running the app locally
