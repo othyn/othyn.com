@@ -33,4 +33,4 @@ EXPOSE 3000
 ENV NODE_ENV=production
 
 # Let's goooooooo!
-ENTRYPOINT ["npx", "node_modules/.bin/nuxt-start"]
+ENTRYPOINT ["npx", "nuxt-start"]
