@@ -23,16 +23,16 @@ export default {
       default: ""
     }
   },
+  mounted() {
+    setTimeout(() => {
+      this.change()
+    }, this.delay * 100)
+  },
   methods: {
     change() {
       this.$el.firstElementChild.style.width = this.progress + '%'
       this.$el.firstElementChild.dataset.filled = this.label
     }
-  },
-  mounted() {
-    setTimeout(() => {
-      this.change()
-    }, this.delay * 100)
   }
 }
 </script>

@@ -27,17 +27,21 @@ export default {
       return (this.words.length - 1)
     }
   },
+  mounted() {
+    this.reset()
+    this.wordBlast()
+  },
   methods: {
     onMouseOver(event) {
       if (this.isFullScreen) {
-        $('body').addClass('rainbow')
-        $(event.target).removeClass('rainbow rainbow-text')
+        document.querySelector('body').classList.add('rainbow')
+        event.target.classList.remove('rainbow', 'rainbow-text')
       }
     },
     onMouseLeave(event) {
       if (this.isFullScreen) {
-        $('body').removeClass('rainbow')
-        $(event.target).addClass('rainbow rainbow-text')
+        document.querySelector('body').classList.remove('rainbow')
+        event.target.classList.add('rainbow', 'rainbow-text')
       }
     },
     reset() {
@@ -67,10 +71,6 @@ export default {
         setTimeout(this.wordBlast, this.currentWordBlastTimeout)
       }
     },
-  },
-  mounted() {
-    this.reset()
-    this.wordBlast()
   }
 }
 </script>

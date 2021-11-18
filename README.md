@@ -35,6 +35,7 @@ $ yarn install
 $ yarn dev
 
 # Build for production and launch server
+$ yarn lint
 $ yarn build
 $ yarn start
 
@@ -47,6 +48,9 @@ For detailed explanation on how things work, check out the [documentation](https
 ## Building the app container
 
 ```bash
+# Ensure the code is linted
+$ yarn lint
+
 # Production container build
 $ docker-compose build
 

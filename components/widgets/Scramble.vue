@@ -16,6 +16,9 @@ export default {
       return this.$slots.default[0].text
     }
   },
+  mounted() {
+    this.scramble(this.$el)
+  },
   methods: {
     onMouseOver(event) {
       clearInterval(this.interval)
@@ -31,20 +34,17 @@ export default {
       return array[this.getRandomInt(array.length)]
     },
     scrambleText (text) {
-      let chars = 'abcdef01234567'.split('')
+      const chars = 'abcdef01234567'.split('')
       return text
         .split('')
-        .map(x => this.getRandomFromArray(chars))
+        .map(() => this.getRandomFromArray(chars))
         .join('')
     },
     scramble(el) {
-      this.interval = setInterval(() =>
+      this.interval = setInterval((function() {
         el.innerText = this.scrambleText(this.originalText)
-      , 150)
+      }).bind(this), 150)
     }
-  },
-  mounted() {
-    this.scramble(this.$el)
   }
 }
 </script>
