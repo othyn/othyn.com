@@ -22,7 +22,7 @@ $ yarn dev
 $ yarn lint
 ```
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org). Thought this scentence was best kept in!
+For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org). Thought this sentence was best kept in!
 
 ## Building the production app image
 
