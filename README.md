@@ -87,7 +87,7 @@ Any and all project changes for releases should be documented below. Versioning 
 
 ### Version 1.1.0
 
-Re-containerisation into a static NuxtJS image served by NGINX, this will significantly shrink the image and hosting overhead for such a simple site.
+[[Git Changes]](https://github.com/othyn/othyn.com/compare/v1.0.0...v1.1.0) Re-containerisation into a static NuxtJS image served by NGINX, this will significantly shrink the image and hosting overhead for such a simple site.
 
 #### Added
 
@@ -110,7 +110,7 @@ Re-containerisation into a static NuxtJS image served by NGINX, this will signif
 
 ### Version 1.0.0
 
-Initial release.
+[[Git Changes]](https://github.com/othyn/othyn.com/compare/v1.0.0-beta.1...v1.0.0) Initial release.
 
 #### Added
 
