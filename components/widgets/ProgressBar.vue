@@ -10,18 +10,18 @@ export default {
     delay: {
       type: Number,
       required: false,
-      default: 5
+      default: 5,
     },
     progress: {
       type: Number,
       required: false,
-      default: 0
+      default: 0,
     },
     label: {
       type: String,
       required: false,
-      default: ""
-    }
+      default: '',
+    },
   },
   mounted() {
     setTimeout(() => {
@@ -32,7 +32,7 @@ export default {
     change() {
       this.$el.firstElementChild.style.width = this.progress + '%'
       this.$el.firstElementChild.dataset.filled = this.label
-    }
-  }
+    },
+  },
 }
 </script>

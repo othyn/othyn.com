@@ -18,10 +18,10 @@ export default {
         dragFriction: 0.1,
         duration: 2000,
         stagger: 1,
-        width: "5px",
-        height: "5px",
+        width: '5px',
+        height: '5px',
       })
-    }
-  }
+    },
+  },
 }
 </script>

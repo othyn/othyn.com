@@ -1,35 +1,33 @@
 <template>
   <div>
-    <GlobalBlock id="about" title="man me">
+    <CoreBlock id="about" title="man me">
       <SectionsHomeAbout />
-    </GlobalBlock>
+    </CoreBlock>
 
-    <GlobalBlock id="skills" title="htop">
+    <CoreBlock id="skills" title="htop">
       <SectionsHomeSkills />
-    </GlobalBlock>
+    </CoreBlock>
 
-    <GlobalBlock id="projects" title="ls -lah ~/git">
+    <CoreBlock id="projects" title="ls -lah ~/git">
       <SectionsHomeProjects />
-    </GlobalBlock>
+    </CoreBlock>
 
-    <GlobalBlock id="hobbies" title="ls -lah /opt">
+    <CoreBlock id="hobbies" title="ls -lah /opt">
       <SectionsHomeHobbies />
-    </GlobalBlock>
+    </CoreBlock>
 
-    <GlobalBlock id="history" title="history | grep me">
+    <CoreBlock id="history" title="history | grep me">
       <SectionsHomeHistory />
-    </GlobalBlock>
+    </CoreBlock>
 
-    <GlobalBlock id="social" title="wall">
+    <CoreBlock id="social" title="wall">
       <SectionsHomeSocial />
-    </GlobalBlock>
+    </CoreBlock>
 
     <SectionsHomeVersion />
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({})
+<script>
+export default {}
 </script>

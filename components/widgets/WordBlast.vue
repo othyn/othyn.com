@@ -1,7 +1,9 @@
 <template>
-  <h1 class="rainbow rainbow-text"
+  <h1
+    class="rainbow rainbow-text"
     @mouseover="onMouseOver($event)"
-    @mouseleave="onMouseLeave($event)">
+    @mouseleave="onMouseLeave($event)"
+  >
     {{ title }}.
   </h1>
 </template>
@@ -12,20 +14,64 @@ export default {
     isFullScreen: {
       type: Boolean,
       required: false,
-      default: false
-    }
+      default: false,
+    },
   },
   data: () => ({
     title: '',
-    words: ['othyn', 'ben', 'code', 'photo', 'fun', 'game', 'dog', 'apple', 'php', 'laravel', 'github', 'twitter', 'youtube', 'space', 'vue', 'sublime', 'hyper', 'swift', 'pc', 'mac', 'sass', 'skiing', 'movies', 'halo', 'cod', 'battlefield', 'factorio', 'sums', 'lincoln', 'developer', 'physics', 'music', 'design', 'play', 'experiment', 'change', 'words', 'hello world', 'ballerina', 'percy pigs', 'haribo', '10x', 'rockstar'],
+    words: [
+      'othyn',
+      'ben',
+      'code',
+      'photo',
+      'fun',
+      'game',
+      'dog',
+      'apple',
+      'php',
+      'laravel',
+      'github',
+      'twitter',
+      'youtube',
+      'space',
+      'vue',
+      'sublime',
+      'hyper',
+      'swift',
+      'pc',
+      'mac',
+      'sass',
+      'skiing',
+      'movies',
+      'halo',
+      'cod',
+      'battlefield',
+      'factorio',
+      'sums',
+      'lincoln',
+      'developer',
+      'physics',
+      'music',
+      'design',
+      'play',
+      'experiment',
+      'change',
+      'words',
+      'hello world',
+      'ballerina',
+      'percy pigs',
+      'haribo',
+      '10x',
+      'rockstar',
+    ],
     wordInterval: 150,
     currentWordBlastCount: 0,
-    currentWordBlastTimeout: 0
+    currentWordBlastTimeout: 0,
   }),
   computed: {
     maxWords() {
-      return (this.words.length - 1)
-    }
+      return this.words.length - 1
+    },
   },
   mounted() {
     this.reset()
@@ -57,7 +103,7 @@ export default {
       return this.getRandomInt(3, 7)
     },
     getRandomWord() {
-      return this.words[ this.getRandomInt(1, this.maxWords) ]
+      return this.words[this.getRandomInt(1, this.maxWords)]
     },
     wordBlast() {
       if (this.currentWordBlastCount > 0) {
@@ -71,6 +117,6 @@ export default {
         setTimeout(this.wordBlast, this.currentWordBlastTimeout)
       }
     },
-  }
+  },
 }
 </script>

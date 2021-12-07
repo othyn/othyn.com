@@ -8,7 +8,7 @@
       <slot></slot>
     </section>
 
-    <hr>
+    <hr />
   </div>
 </template>
 
@@ -22,7 +22,7 @@ export default {
     title: {
       type: String,
       required: true,
-    }
-  }
+    },
+  },
 }
 </script>

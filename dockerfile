@@ -1,36 +1,31 @@
+# ----- ----- -----
+#  Stage -- Build
+# ----- ----- -----
+
 # Latest LTS release at the time of writing
-FROM node:16.13.0-alpine3.14
+FROM node:16.13.0-alpine3.14 AS build
 
-# Setup Nuxt for the container
-ENV NUXT_VERSION=2.15.8
-ENV NUXT_HOST=0.0.0.0
-ENV NUXT_PORT=3000
+# Create a working directory
+RUN mkdir -p /working
+WORKDIR /working
 
-# Create app directory
-RUN mkdir -p /var/www
-WORKDIR /var/www
+# Note the projects ./.dockerignore
+COPY . /working
 
-# Copy the app into the container
-# Note usage of ./../.dockerignore
-COPY . /var/www/
+# Build the app
+# Individual commands/layers to aid with debugging the build process, as we aren't using this container anyway
+RUN yarn install
+RUN yarn generate
 
-# Reduce container layers to save space, along with other tricks that dropped this 500MB+ image down to around ~130MB
-# https://dev.to/fbjorn/reducing-docker-image-size-of-a-nuxt-ssr-application-40oe
-RUN : \
-    && yarn install \
-    && yarn build --standalone \
-    && rm -rf node_modules \
-    && rm package.json \
-    && yarn add "nuxt-start@${NUXT_VERSION}" \
-    && yarn cache clean \
-    && :
+# ----- ----- -----
+#  Stage -- Production
+# ----- ----- -----
 
-# Expose the app port
-EXPOSE 3000
+# Latest release at the time of writing
+FROM nginx:1.21.4-alpine AS production
 
-# Set the Node prod flag
-# THIS MUST BE AFTER THE YARN INSTALLATION
-ENV NODE_ENV=production
+# NGINX container hosted directory
+WORKDIR /usr/share/nginx/html
 
-# Let's goooooooo!
-ENTRYPOINT ["npx", "nuxt-start"]
+# Copy across the static generated NuxtJS build fragment from the build image
+COPY --from=build /working/dist ./

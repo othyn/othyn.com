@@ -1,7 +1,9 @@
 <template>
-  <span class="scramble"
+  <span
+    class="scramble"
     @mouseover="onMouseOver($event)"
-    @mouseleave="onMouseLeave($event)">
+    @mouseleave="onMouseLeave($event)"
+  >
     <slot></slot>
   </span>
 </template>
@@ -9,12 +11,12 @@
 <script>
 export default {
   data: () => ({
-    interval: null
+    interval: null,
   }),
   computed: {
     originalText() {
       return this.$slots.default[0].text
-    }
+    },
   },
   mounted() {
     this.scramble(this.$el)
@@ -33,7 +35,7 @@ export default {
     getRandomFromArray(array) {
       return array[this.getRandomInt(array.length)]
     },
-    scrambleText (text) {
+    scrambleText(text) {
       const chars = 'abcdef01234567'.split('')
       return text
         .split('')
@@ -41,10 +43,13 @@ export default {
         .join('')
     },
     scramble(el) {
-      this.interval = setInterval((function() {
-        el.innerText = this.scrambleText(this.originalText)
-      }).bind(this), 150)
-    }
-  }
+      this.interval = setInterval(
+        function () {
+          el.innerText = this.scrambleText(this.originalText)
+        }.bind(this),
+        150
+      )
+    },
+  },
 }
 </script>

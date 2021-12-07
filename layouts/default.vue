@@ -1,9 +1,13 @@
 <template>
   <div class="container">
-    <GlobalNav />
+    <CoreNav />
 
     <main>
-      <Nuxt />
+      <nuxt />
     </main>
   </div>
 </template>
+
+<script>
+export default {}
+</script>
