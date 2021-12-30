@@ -7,6 +7,12 @@
 
 Modernised codebase for my website, replacing the old Laravel app. As my design methodology has changed towards containerised microservices living within K8's, the original Laravel repo was monolithic, hard to containerise and maintain. Thus, the extraction of the original semi-static web content with mild VueJS elements that lead itself perfectly to a small NuxtJS site bundled into an equally small container.
 
+Can be found at:
+
+- [othyn.com](https://othyn.com/)
+- [ben.tindall.rocks](https://ben.tindall.rocks/) (and subsequently [tindall.rocks](https://tindall.rocks/))
+- [bentindall.uk](https://bentindall.uk/)
+
 ---
 
 ## Development
