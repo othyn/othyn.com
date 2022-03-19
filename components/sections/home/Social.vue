@@ -18,15 +18,6 @@
         >
       </p>
       <p>
-        discord:
-        <a
-          href="https://discordapp.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><WidgetsScramble>othyn</WidgetsScramble></a
-        >
-      </p>
-      <p>
         email:
         <a
           href="mailto:hello@othyn.com"

@@ -79,8 +79,6 @@ Roadmap for things I would like to change over time.
 
 ### Changes
 
-- Change `htop` progress bars into proficiency levels based around technologies, career experience and overall skill set.
-- Change the highlighted GitHub repos in `ls -lah ~/git` to newer projects.
 - Change `history | grep me` into tabbed sections going over my key interest pillars; career, hardware, networking, cars, photography.
 
 ---
@@ -88,6 +86,29 @@ Roadmap for things I would like to change over time.
 ## Changelog
 
 Any and all project changes for releases should be documented below. Versioning follows the SEMVER standard.
+
+---
+
+### Version 1.1.1
+
+[[Git Changes]](https://github.com/othyn/othyn.com/compare/v1.1.0...v1.1.1) Alteration of skills.
+
+#### Added
+
+- More easter eggs. It's the time of year!
+
+#### Changed
+
+- Altered the skills section to add up to date skills
+- Presentation of skills has been updated to be a much better visual representation
+
+#### Fixed
+
+- Nothing.
+
+#### Removed
+
+- Discord from social
 
 ---
 

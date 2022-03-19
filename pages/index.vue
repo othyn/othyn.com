@@ -4,8 +4,16 @@
       <SectionsHomeAbout />
     </CoreBlock>
 
-    <CoreBlock id="skills" title="htop">
-      <SectionsHomeSkills />
+    <CoreBlock id="skills" title="htop | grep 'Second nature'">
+      <SectionsHomeSkillsOne />
+      <br />
+      <CoreHeader title="htop | grep 'Proficient'"></CoreHeader>
+      <SectionsHomeSkillsTwo />
+      <br />
+      <CoreHeader title="htop | grep 'Exploring & Loving'"></CoreHeader>
+      <SectionsHomeSkillsThree />
+      <br />
+      <SectionsHomeSkillsFooter />
     </CoreBlock>
 
     <CoreBlock id="projects" title="ls -lah ~/git">

@@ -1,9 +1,7 @@
 <template>
   <div>
     <section :id="id">
-      <header>
-        <h1 class="terminal-prompt">{{ title }}</h1>
-      </header>
+      <CoreHeader :title="title"></CoreHeader>
 
       <slot></slot>
     </section>

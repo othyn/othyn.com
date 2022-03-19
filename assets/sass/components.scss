@@ -1,1 +1,22 @@
 // Blade components
+div.skills {
+  small {
+    display: block;
+    margin-bottom: 25px;
+  }
+
+  dl {
+    margin-bottom: 25px;
+    column-count: 3;
+    column-width: 250px;
+    //   column-rule: 1px dashed var(--secondary-color);
+
+    dd {
+      margin-bottom: 5px;
+
+      span {
+        color: var(--primary-color);
+      }
+    }
+  }
+}
