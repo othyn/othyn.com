@@ -3,6 +3,7 @@
     <small>... and seeking second nature.</small>
 
     <dl>
+      <dd><span>♥</span> | Ansible</dd>
       <dd><span>★️</span> | AWS (Acronym City)</dd>
       <dd><span>★️</span> | CI / CD Pipelines</dd>
       <dd><span>♥</span> | Cloudflare</dd>
