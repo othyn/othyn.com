@@ -20,6 +20,7 @@
       <dd><span>★️</span> | SASS</dd>
       <dd><span>♥</span> | Swift</dd>
       <dd><span>♥</span> | SwiftUI</dd>
+      <dd><span>♥</span> | Terraform</dd>
       <dd><span>♥</span> | TypeScript</dd>
       <dd><span>♥</span> | UniFi</dd>
       <dd><span>♥</span> | Virtualisation</dd>

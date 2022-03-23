@@ -8,7 +8,6 @@
       <dd><span>♥</span> | Grafana</dd>
       <dd><span>★️</span> | InfluxDB (+ Telegraf)</dd>
       <dd><span>★️</span> | TensorFlow</dd>
-      <dd><span>♥</span> | Terraform</dd>
       <dd><span>★️</span> | Unity</dd>
       <dd><span>★️</span> | WebGL</dd>
     </dl>
