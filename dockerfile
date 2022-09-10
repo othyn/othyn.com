@@ -14,7 +14,7 @@ COPY . /working
 
 # Build the app
 # Individual commands/layers to aid with debugging the build process, as we aren't using this container anyway
-RUN yarn install
+RUN yarn install --network-timeout 100000
 RUN yarn generate
 
 # ----- ----- -----
