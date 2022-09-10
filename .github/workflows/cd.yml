@@ -43,6 +43,10 @@ jobs:
           tags: |
             type=semver,pattern={{raw}}
 
+      - name: Set up Docker Buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v2
+
       - name: Build and push Docker image
         uses: docker/build-push-action@v3
         with:
