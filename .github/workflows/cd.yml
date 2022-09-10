@@ -8,6 +8,8 @@ name: Continuous Deployment
 
 on:
   push:
+    branches:
+      - staging
     tags:
       - "*"
 
@@ -42,7 +44,8 @@ jobs:
           flavor: |
             latest=true
           tags: |
-            type=semver,pattern={{raw}}
+            type=semver,enable=true,priority=100,pattern={{raw}}
+            type=sha,enable=true,priority=200,prefix=sha-,suffix=,format=short
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
