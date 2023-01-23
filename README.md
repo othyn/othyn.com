@@ -1,7 +1,7 @@
 # othyn.com
 
-[![Continuous Integration](https://github.com/othyn/othyn.com/actions/workflows/ci.yml/badge.svg)](https://github.com/othyn/othyn.com/actions/workflows/ci.yml)
-[![Continuous Deployment](https://github.com/othyn/othyn.com/actions/workflows/cd.yml/badge.svg)](https://github.com/othyn/othyn.com/actions/workflows/cd.yml)
+[![Lint](https://github.com/othyn/othyn.com/actions/workflows/00-lint.yml/badge.svg)](https://github.com/othyn/othyn.com/actions/workflows/00-lint.yml)
+[![Build and Push GitHub Pages](https://github.com/othyn/othyn.com/actions/workflows/01-pages.yml/badge.svg)](https://github.com/othyn/othyn.com/actions/workflows/01-pages.yml)
 [![GitHub license](https://img.shields.io/github/license/othyn/othyn.com)](https://github.com/othyn/othyn.com/blob/main/LICENSE)
 [![Love](https://img.shields.io/badge/built%20with-love-red)](https://img.shields.io/badge/built%20with-love-red)
 
