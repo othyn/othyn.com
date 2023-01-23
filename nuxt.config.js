@@ -2,6 +2,12 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  // https://nuxtjs.org/deployments/github-pages/#deploying-to-github-pages-for-repository
+  // NOTE: May break the image builds, will need to update web server/proxies to host at the new base URL
+  router: {
+    base: '/othyn.com/',
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'othyn.',
@@ -16,8 +22,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content:
-          'Senior software engineer in the UK. This is my personal site.',
+        content: 'Lead software engineer in the UK. This is my personal site.',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],

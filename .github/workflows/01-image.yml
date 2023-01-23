@@ -1,10 +1,4 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-# See: https://docs.github.com/en/actions/publishing-packages/publishing-docker-images#publishing-images-to-github-packages
-
-name: Continuous Deployment
+name: Build and Push Image
 
 on:
   push:
@@ -13,14 +7,20 @@ on:
     tags:
       - "*"
 
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   build-and-push-image:
-    timeout-minutes: 15
+    name: Build and Push Image
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+
     permissions:
       contents: read
       packages: write
