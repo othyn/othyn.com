@@ -4,9 +4,9 @@ export default {
 
   // https://nuxtjs.org/deployments/github-pages/#deploying-to-github-pages-for-repository
   // NOTE: May break the image builds, will need to update web server/proxies to host at the new base URL
-  router: {
-    base: '/othyn.com/',
-  },
+  // router: {
+  //   base: '/othyn.com/',
+  // },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
