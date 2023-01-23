@@ -37,9 +37,9 @@
     <p>
       Taking the <span style="color: #f53e30">N</span
       ><span style="color: #f6ee34">e</span><span style="color: #5ec059">X</span
-      ><span style="color: #e460ab">T</span> step, I'm now employed as the
-      Senior Software Engineer helping to expand, refine and diversify an
-      impactful product.
+      ><span style="color: #e460ab">T</span> step, I'm now employed as the Lead
+      Software Engineer helping to expand, refine and diversify an impactful
+      product.
     </p>
 
     <p>
@@ -60,8 +60,8 @@
     </p>
 
     <p>
-      P.s. I also like Apple. I love all tech, but Apple... just an incy bit
-      more. Privacy and their BSD roots... best of both worlds. ;)
+      P.S. Yeah the commands don't really work on an actual terminal, but its
+      all a bit of tongue in cheek fun.
     </p>
   </div>
 </template>

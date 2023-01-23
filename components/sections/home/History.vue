@@ -16,6 +16,14 @@
 
     <div class="terminal-timeline">
       <div class="terminal-card">
+        <header>2022</header>
+        <div>
+          Still-still loving life at Kamma,
+          <WidgetsDomfetti>promoted</WidgetsDomfetti> to the Lead Software
+          Engineer. Tesla Model 3 Long Range is still perfect and loving it!
+        </div>
+      </div>
+      <div class="terminal-card">
         <header>2021</header>
         <div>
           Still loving life at Kamma. Swapped the Golf R out for a new Tesla

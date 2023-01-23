@@ -4,13 +4,13 @@
       <SectionsHomeAbout />
     </CoreBlock>
 
-    <CoreBlock id="skills" title="htop | grep 'Second nature'">
+    <CoreBlock id="skills" title="btop | grep 'Second nature'">
       <SectionsHomeSkillsOne />
       <br />
-      <CoreHeader title="htop | grep 'Proficient'"></CoreHeader>
+      <CoreHeader title="btop | grep 'Proficient'"></CoreHeader>
       <SectionsHomeSkillsTwo />
       <br />
-      <CoreHeader title="htop | grep 'Exploring & Loving'"></CoreHeader>
+      <CoreHeader title="btop | grep 'Exploring & Loving'"></CoreHeader>
       <SectionsHomeSkillsThree />
       <br />
       <SectionsHomeSkillsFooter />
