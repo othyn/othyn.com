@@ -17,7 +17,7 @@
           <th>skiing</th>
           <td>
             has to be skiing. Nothing like it, the experience. Recently,
-            finally, invested in my own hear. Suited and booted.
+            finally, invested in my own gear. Suited and booted.
           </td>
         </tr>
         <tr>
