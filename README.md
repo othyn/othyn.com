@@ -79,4 +79,4 @@ Roadmap for things I would like to change over time.
 
 ### Changes
 
-- Change `history | grep me` into tabbed sections going over my key interest pillars; career, hardware, networking, cars, photography.
+- Change `history | grep career` into tabbed sections going over my key interest pillars; career, hardware, networking, photography.

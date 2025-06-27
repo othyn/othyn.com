@@ -13,7 +13,6 @@
       <CoreHeader title="btop | grep 'Exploring & Loving'"></CoreHeader>
       <SectionsHomeSkillsThree />
       <br />
-      <SectionsHomeSkillsFooter />
     </CoreBlock>
 
     <CoreBlock id="projects" title="ls -lah ~/git">
@@ -24,7 +23,7 @@
       <SectionsHomeHobbies />
     </CoreBlock>
 
-    <CoreBlock id="history" title="history | grep me">
+    <CoreBlock id="history" title="history | grep career">
       <SectionsHomeHistory />
     </CoreBlock>
 

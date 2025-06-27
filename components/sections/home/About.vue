@@ -37,9 +37,10 @@
     <p>
       Taking the <span style="color: #f53e30">N</span
       ><span style="color: #f6ee34">e</span><span style="color: #5ec059">X</span
-      ><span style="color: #e460ab">T</span> step, I'm now employed as the Lead
-      Software Engineer helping to expand, refine and diversify an impactful
-      product.
+      ><span style="color: #e460ab">T</span> step, I'm now employed as a Staff
+      Manager, combining deep technical leadership with people management,
+      helping to shape architectural direction and scale impactful engineering
+      teams.
     </p>
 
     <p>

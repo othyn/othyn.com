@@ -1,74 +1,79 @@
 <template>
   <div>
     <p>
-      Not quite an archaeological dig and I like to think I've accomplished a
-      lot in the short space of time that I've been on this here blue dot, with
-      plenty more to come! Once developed, this timeline element was PR'd back
-      into the
-      <a
-        href="https://github.com/Gioni06/terminal.css"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Terminal CSS</a
-      >
-      framework.
+      My professional journey in software engineering, showcasing career
+      progression and key achievements across different roles and organisations.
+      This timeline highlights the evolution of my technical leadership and the
+      impact I've made in building and scaling engineering teams.
     </p>
 
     <div class="terminal-timeline">
       <div class="terminal-card">
+        <header>2025</header>
+        <div>
+          <WidgetsDomfetti>Promoted</WidgetsDomfetti> to Staff Manager at Kamma.
+          A hybrid leadership role combining deep technical ownership with
+          formal people management, acting as a senior strategic advisor to the
+          CTO and CEO. Responsible for shaping Kamma's architectural direction,
+          mentoring engineering teams, and ensuring technology accelerates
+          customer and business value.
+        </div>
+      </div>
+      <div class="terminal-card">
         <header>2022</header>
         <div>
-          Still-still loving life at Kamma,
-          <WidgetsDomfetti>promoted</WidgetsDomfetti> to the Lead Software
-          Engineer. Tesla Model 3 Long Range is still perfect and loving it!
+          <WidgetsDomfetti>Promoted</WidgetsDomfetti> to Lead Software Engineer
+          at Kamma. Taking on greater technical leadership responsibilities,
+          driving architectural decisions, and mentoring the growing engineering
+          team while maintaining hands-on development contributions.
         </div>
       </div>
       <div class="terminal-card">
         <header>2021</header>
         <div>
-          Still loving life at Kamma. Swapped the Golf R out for a new Tesla
-          Model 3 Long Range and loving it!
+          Continuing to excel at Kamma, deepening technical expertise and taking
+          on more complex challenges as the platform and team continued to grow.
         </div>
       </div>
       <div class="terminal-card">
         <header>2019</header>
         <div>
-          What lay ahead. 25. Now based at Kamma in London. Big move! Senior
-          Software Engineer. Exciting new challenges in a tight knit company, a
-          team, loving it.
+          Career milestone at 25 - joined Kamma in London as Senior Software
+          Engineer. A significant move bringing exciting new challenges in a
+          tight-knit company with innovative technology and strong team culture.
         </div>
       </div>
       <div class="terminal-card">
         <header>2018</header>
         <div>
-          Senior Software Developer. 24. BOOM. The platform exploded in
-          popularity, we won awards, gained national attention and are now
-          playing in the big leagues. Time to expand the team! A hiring run of 6
-          new staff to exceed resource, training the next generation of Junior
-          Developers. My enjoyment and key skill being developing others and
-          assisting people to grow under their own drive. Talking of driving,
-          hello MK7.5 Golf R, DSG, lapiz blue with pretoria wheels, ummmm..MMM!
+          <WidgetsDomfetti>Promoted</WidgetsDomfetti> to Senior Software
+          Developer at 24. The platform exploded in popularity, won awards, and
+          gained national attention - now playing in the big leagues. Led a
+          hiring initiative bringing in 6 new team members, focusing on training
+          and developing the next generation of Junior Developers. Discovered my
+          passion for mentoring others and helping people grow through their own
+          drive.
         </div>
       </div>
       <div class="terminal-card">
         <header>2015</header>
         <div>
-          Onwards and upwards. 22. Promoted to Web Developer. I now have the run
-          of the mill and love it, learning more and more about production
-          software and the role of software in companies. Bridging the gap
-          between tech and people and developing the platform in a boom of
-          functionality.
+          <WidgetsDomfetti>Promoted</WidgetsDomfetti> to Web Developer at 22.
+          Gained full ownership of development responsibilities, learning
+          extensively about production software and the strategic role of
+          technology in business operations. Specialised in bridging the gap
+          between technical and business stakeholders while driving platform
+          functionality expansion.
         </div>
       </div>
       <div class="terminal-card">
         <header>2014</header>
         <div>
-          Started my career in software. 21. Web Assistant (junior developer) at
-          the University of Lincoln Students' Union. I took the role as a superb
-          opportunity to work as part of a two man team in a new development
-          called SUMS, Students' Union Management System. Only being in alpha
-          when I started, shortly after starting releasing version 1. There lay
-          history.
+          Started my software engineering career at 21 as Web Assistant (Junior
+          Developer) at the University of Lincoln Students' Union. Joined as
+          part of a two-person team developing SUMS (Students' Union Management
+          System), taking it from alpha to version 1 release. This foundational
+          experience established my career trajectory in software development.
         </div>
       </div>
     </div>

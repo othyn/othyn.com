@@ -7,13 +7,12 @@
       <dd><span>♥</span> | Bash</dd>
       <dd><span>♥</span> | Composer</dd>
       <dd><span>♥</span> | <span class="rainbow rainbow-text">Docker</span></dd>
-      <dd><span>♥</span> | Elucidator</dd>
       <dd><span>♥</span> | Empathetic</dd>
       <dd><span>♥</span> | Git & GitOps</dd>
       <dd>
         <span>♥</span> | <span class="rainbow rainbow-text">Hardware</span>
       </dd>
-      <dd><span>♥</span> | <WidgetsDomfetti>Humble</WidgetsDomfetti></dd>
+      <dd><span>♥</span> | <span class="rainbow rainbow-text">Komodo</span></dd>
       <dd>
         <span>♥</span> | <span class="rainbow rainbow-text">Kubernetes</span>
       </dd>
@@ -23,6 +22,7 @@
       <dd><span>♥</span> | <span class="rainbow rainbow-text">Linux</span></dd>
       <dd><span>♥</span> | <span class="rainbow rainbow-text">macOS</span></dd>
       <dd><span>♥</span> | MariaDB</dd>
+      <dd><span>♥</span> | Mentoring</dd>
       <dd><span>★️</span> | MySQL</dd>
       <dd><span>♥</span> | People</dd>
       <dd><span>♥</span> | Perspicacity</dd>

@@ -63,7 +63,7 @@
         target="_blank"
         rel="noopener noreferrer"
         >scripts</a
-      >. Funnily enough both of my favorite
+      >. Funnily enough both of my favourite
       <a
         href="https://gist.github.com/othyn/5c7dc991d32b2db358f17fb1dc6e7f1f"
         target="_blank"
