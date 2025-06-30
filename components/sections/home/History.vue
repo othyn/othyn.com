@@ -15,8 +15,9 @@
           A hybrid leadership role combining deep technical ownership with
           formal people management, acting as a senior strategic advisor to the
           CTO and CEO. Responsible for shaping Kamma's architectural direction,
-          mentoring engineering teams, and ensuring technology accelerates
-          customer and business value.
+          leading DevOps initiatives and infrastructure strategy, mentoring
+          engineering teams, and ensuring technology accelerates customer and
+          business value.
         </div>
       </div>
       <div class="terminal-card">
