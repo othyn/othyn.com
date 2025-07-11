@@ -11,13 +11,16 @@
       <div class="terminal-card">
         <header>2025</header>
         <div>
-          <WidgetsDomfetti>Promoted</WidgetsDomfetti> to Staff Manager at Kamma.
-          A hybrid leadership role combining deep technical ownership with
-          formal people management, acting as a senior strategic advisor to the
-          CTO and CEO. Responsible for shaping Kamma's architectural direction,
-          leading DevOps initiatives and infrastructure strategy, mentoring
-          engineering teams, and ensuring technology accelerates customer and
-          business value.
+          <WidgetsDomfetti>Promoted</WidgetsDomfetti> to Staff Engineer at
+          Kamma. One of the most senior technical roles in the company and a
+          pivotal bridge between technology and business. As a member of the
+          senior leadership team, I act as a trusted advisor to the CTO and CEO,
+          bringing deep technical insight that shapes strategy and empowers the
+          entire company to deliver value quickly. This unique role combines the
+          highest level of technical leadership with formal people management
+          responsibilities, leading and line managing the engineering team while
+          driving architectural direction, DevOps initiatives, and
+          infrastructure strategy.
         </div>
       </div>
       <div class="terminal-card">

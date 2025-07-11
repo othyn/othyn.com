@@ -22,8 +22,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content:
-          'Staff Manager and software engineer in the UK. This is my personal site.',
+        content: 'Staff Engineer in the UK. This is my personal site.',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],
